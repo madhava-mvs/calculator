@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <center>
+    <fieldset>
+        <input type="button" name="" id="logb" value="login button" onclick="takev()">
+    </fieldset>
+    <button>click me</button>
+    <div>this is div block</div>
+    
+    
+</center>
+<script>
+    let button = document.querySelector('button')
+    let div = document.querySelector('div')
+    div.style.display = 'none'
+    button.onclick = () => {
+        div.style.display = 'block'
+    }
+    
+
+    function takev()
+    {
+    var n = document.getElementById("logb").value="login"
+    window.alert(n)
+    if(n=="login")
+    {
+        document.getElementById("pr").style.display="block";
+    }
+    else
+    {
+        document.getElementById("pr").style.display="none";
+    }
+    }
+    
+</script>
+<form action="#" method="post" id="pr" style="display:none ;">
+    <label for="">user name</label>
+    <input type="text"/>
+
+
+</form>
+</body>
+</html>

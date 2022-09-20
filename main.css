@@ -1,0 +1,11 @@
+.a{
+    width:90%; 
+    height:90%;
+    margin-left: 5px;
+    background-color: rgb(231, 240, 240);
+    border-radius: 30px;
+}
+.a:hover{
+    background-color: aliceblue;
+
+}
